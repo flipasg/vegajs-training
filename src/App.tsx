@@ -1,7 +1,13 @@
-import BarChart from './components/BarChart';
+import BarChart from './components/charts/BarChart/BarChart';
+import LineChart from './components/charts/LineChart/LineChart';
 
 function App() {
-  return <BarChart />;
+  return (
+    <>
+      <BarChart />
+      <LineChart />
+    </>
+  );
 }
 
 export default App;
